@@ -11,9 +11,10 @@ terraform {
 }
 
 provider "google" {
-  credentials = var.credentials
-  project     = var.project
-  zone        = var.zone
+  credentials = "d:/googlecloud_projects/dlvm_b/credentials/file.json"
+  project     = "hansha-project-v2"
+  zone        = "us-west4-b"
+
 }
 
 
