@@ -1,2 +1,2 @@
 # terraform.tfvars file
-# Antman - Earth
+# Antman - Earth - Milkyway
