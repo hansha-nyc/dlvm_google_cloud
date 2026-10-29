@@ -16,13 +16,13 @@ provider "google" {
   zone        = var.zone
 }
 
-*/
+/*
 provider "google" {
-  credentials = "d:/googlecloud_projects/dlvm_b/credentials/file.json"
+  credentials = "path/credentials/file.json"
   project     = "project-name"
   zone        = "us-west4-b"
 
 }
-/*
+*/
 
 
