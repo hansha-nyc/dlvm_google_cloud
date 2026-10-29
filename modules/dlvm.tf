@@ -2,7 +2,7 @@
 # Antman - Earth
 
 resource "google_compute_instance" "dlvm" {
-  name         = "hanshalinux0010a${count.index}"
+  name         = "srvnamea${count.index}"
   count        = 3
   machine_type = "n2-standard-2"
   zone         = "us-west4-b"
