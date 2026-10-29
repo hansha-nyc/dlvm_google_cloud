@@ -1,13 +1,9 @@
 # terraform main file.
 # Antman - Earth
 
-terraform {
-  required_version = ">= 1.5.0"
+module "compute_engine" {
+  source            = "./modules/dir_name"
+  ssh_source_ranges = ["203.0.113.10/32"]
+  zone              = var.zone
 
-  required_providers {
-    google = {
-      source  = "hashicorp/google"
-      version = "~> 6.0"
-    }
-  }
 }
