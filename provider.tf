@@ -1,5 +1,5 @@
 # google cloud provider file for comput engine instances
-# Ant - Earth
+# Ant - Earth - Milkyway
 
 terraform {
   required_providers {
