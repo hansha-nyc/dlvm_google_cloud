@@ -1,5 +1,5 @@
 # terraform main file.
-# Antman - Earth
+# Antman - Earth - Milkyway
 
 module "compute_engine" {
   source            = "./modules/dir_name"
