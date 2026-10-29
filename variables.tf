@@ -8,8 +8,9 @@ variable "project" {
 }
 variable "credentials" {
   type        = string
-  default     = "D:/googlecloud_projects/dlvm_b/credentials/file.json"
+  default     = "path/credentials/file.json"
   description = "The path to the Google Cloud credentials JSON file"
+  sensitive   = true
 }
 
 variable "zone" {
