@@ -1,5 +1,5 @@
 # variables file 
-# Antman - Earth
+# Antman - Earth - Milkyway
 
 variable "project" {
   default     = "project-name"
