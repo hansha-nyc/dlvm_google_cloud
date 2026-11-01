@@ -1,5 +1,5 @@
 # deep learning virtual machine
-# Antman - Earth
+# Antman - Earth - Milkyway
 
 resource "google_compute_instance" "dlvm" {
   name         = "srvnamea${count.index}"
